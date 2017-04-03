@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimulationTest01</string>
+    <string name="second_activity">Navigate to second activity</string>
+    <string name="zero">0</string>
+    <string name="left_button">Press me</string>
+    <string name="right_button">Press me, too</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
