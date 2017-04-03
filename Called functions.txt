@@ -1,0 +1,6 @@
+Home - pause, stop
+Back - pause, stop, destroy
+Rotate - pause, stop, destroy -> create, start, resume
+Initial - create, start, resume
+Close screen - pause, stop
+Open screen - restart, start, resume
