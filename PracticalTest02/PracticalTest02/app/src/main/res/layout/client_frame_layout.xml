@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/address_hint"
+        android:layout_gravity="center"
+        android:id="@+id/client_address_edit_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/port_hint"
+        android:layout_gravity="center"
+        android:id="@+id/client_port_edit_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/city_hint"
+        android:layout_gravity="center"
+        android:id="@+id/client_city_edit_text"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/information_types"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"
+        android:id="@+id/client_information_spinner"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/http_methods"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"
+        android:id="@+id/client_http_method_spinner"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_forecast"
+        android:layout_gravity="center"
+        android:id="@+id/client_get_forecast_button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/client_response_text_view"/>
+
+</LinearLayout>
